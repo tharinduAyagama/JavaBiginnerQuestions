@@ -1,0 +1,1 @@
+This repository has beginner level java questions and the solution code. Following questions and solutions are included.
