@@ -1,5 +1,4 @@
 package org.example;
-
 import java.util.Scanner;
 
 public class Main {
@@ -9,14 +8,16 @@ public class Main {
         System.out.print("Enter a word: ");
         String word = scanner.nextLine();
 
-        String original = word.toLowerCase();
-        String reversed = new StringBuilder(original).reverse().toString();
+        palindrome checker = new palindrome();
 
-        if (original.equals(reversed)) {
+        if (checker.isPalindrome(word)) {
             System.out.println("Palindrome");
         } else {
             System.out.println("Not a palindrome");
         }
-
+        scanner.close();
     }
 }
+
+
+
