@@ -15,6 +15,14 @@ public class Main {
         } else {
             System.out.println("Not a palindrome");
         }
+
+        palindrome checkerTwoArrays = new palindrome();
+
+        if (checker.isPalindromeUsingTwoArrays(word)) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not a palindrome");
+        }
         scanner.close();
     }
 }
