@@ -12,17 +12,17 @@ public class Main {
 
         if (checker.isPalindrome(word)) {
             System.out.println("Palindrome");
-        } else {
+        }else {
             System.out.println("Not a palindrome");
         }
 
-        palindrome checkerTwoArrays = new palindrome();
 
         if (checker.isPalindromeUsingTwoArrays(word)) {
             System.out.println("Palindrome");
         } else {
             System.out.println("Not a palindrome");
         }
+
         scanner.close();
     }
 }
